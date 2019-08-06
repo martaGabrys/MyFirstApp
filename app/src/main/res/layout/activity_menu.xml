@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/makeup_menu_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/make_up_api"
+        android:textColor="@color/colorMKA"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/nail"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/makeup_menu_textview">
+
+        <TextView
+            android:id="@+id/choosing_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="monospace"
+            android:text="@string/filtering"
+            android:textAlignment="textEnd"
+            android:textStyle="bold"
+            android:elevation="8dp"/>
+
+
+        <Button
+            android:id="@+id/button_brand"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brand"
+            android:fontFamily="monospace"
+            />
+
+        <Button
+            android:id="@+id/button_product_type"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/product_type"
+            android:fontFamily="monospace"/>
+
+        <Button
+            android:id="@+id/button_tag"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tags"
+            android:fontFamily="monospace"/>
+
+        <Button
+            android:id="@+id/button_all"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all_products"
+            android:fontFamily="monospace"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

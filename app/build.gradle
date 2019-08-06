@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.example.marta.mg_makeup"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.support"
+    implementation "com.android.support:support-compat:$rootProject.ext.support"
+    implementation "com.android.support:design:$rootProject.ext.support"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    // Butterknife
+    implementation "com.jakewharton:butterknife:$rootProject.ext.butterknife"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.ext.butterknife"
+
+    // Timber
+    implementation "com.jakewharton.timber:timber:$rootProject.ext.timber"
+
+    // RxJava 2
+    implementation "io.reactivex.rxjava2:rxjava:2.1.12"
+
+    // RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+
+    // RecyclerView
+    implementation "com.android.support:recyclerview-v7:$rootProject.ext.support"
+
+    // Gson
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+
+    // Gson converter
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+    // RxJava 2 type adapter
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+    // AndroidSVG
+    implementation 'com.caverock:androidsvg:1.2.1'
+    // CardView
+    implementation "com.android.support:cardview-v7:${rootProject.ext.support}"
+
+    // Room
+    implementation "android.arch.persistence.room:runtime:1.1.0-beta3"
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.0-beta3"
+
+    // Dagger 2
+    implementation "com.google.dagger:dagger-android:${rootProject.ext.dagger2}"
+    implementation "com.google.dagger:dagger-android-support:${rootProject.ext.dagger2}"
+    annotationProcessor "com.google.dagger:dagger-android-processor:${rootProject.ext.dagger2}"
+    annotationProcessor "com.google.dagger:dagger-compiler:${rootProject.ext.dagger2}"
+
+//    // Firebase
+//    implementation "com.google.firebase:firebase-core:${rootProject.ext.firebase_core}"
+//
+//    // Firebase - cloud messaging
+//    implementation "com.google.firebase:firebase-messaging:${rootProject.ext.firebase}"
+//
+//    // Firebase - ML Kit
+//    implementation "com.google.firebase:firebase-ml-vision:${rootProject.ext.firebase_ml_kit}"
+}
+//
+//apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">MG_makeup</string>
+    <string name="products_error_message">Ups ! We\'ve got some problems with server connection</string>
+
+    <string name="b0">Annabelle</string>
+    <string name="b1">Benefit</string>
+    <string name="b2">Dior</string>
+    <string name="b3">Essie</string>
+    <string name="b4">Glossier</string>
+    <string name="b5">L\'oreal</string>
+    <string name="b6">Maybelline</string>
+    <string name="b7">Pure Anada</string>
+    <string name="b8">Revlon</string>
+    <string name="b9">Sante</string>
+    <string name="b10">Zorah</string>
+
+    <string-array name="brands">
+        <item>@string/b0</item>
+        <item>@string/b1</item>
+        <item>@string/b2</item>
+        <item>@string/b3</item>
+        <item>@string/b4</item>
+        <item>@string/b5</item>
+        <item>@string/b6</item>
+        <item>@string/b7</item>
+        <item>@string/b8</item>
+        <item>@string/b9</item>
+        <item>@string/b10</item>
+    </string-array>
+
+
+    <string name="ptype0">Powder</string>
+    <string name="ptype1">Cream</string>
+    <string name="ptype2">Bronzer</string>
+    <string name="ptype3">Eyebrow</string>
+    <string name="ptype4">Eyeliner</string>
+    <string name="ptype5">Eyeshadow</string>
+    <string name="ptype6">Lip liner</string>
+    <string name="ptype7">Lipstick</string>
+    <string name="ptype8">Mascara</string>
+    <string name="ptype9">Nial Polish</string>
+
+    <string-array name="productType">
+        <item>@string/ptype0</item>
+        <item>@string/ptype1</item>
+        <item>@string/ptype2</item>
+        <item>@string/ptype3</item>
+        <item>@string/ptype4</item>
+        <item>@string/ptype5</item>
+        <item>@string/ptype6</item>
+        <item>@string/ptype7</item>
+        <item>@string/ptype8</item>
+        <item>@string/ptype9</item>
+    </string-array>
+
+
+    <string name="tag0">Canadian</string>
+    <string name="tag1">Dairy Free</string>
+    <string name="tag2">Fiar Trade</string>
+    <string name="tag3">Gluten Free</string>
+    <string name="tag4">Natural</string>
+    <string name="tag5">Non-GMO</string>
+    <string name="tag6">Organic</string>
+    <string name="tag7">Peanut free product</string>
+    <string name="tag8">Sugar free</string>
+    <string name="tag9">Vegan</string>
+
+
+    <string-array name="tags">
+        <item>@string/tag0</item>
+        <item>@string/tag1</item>
+        <item>@string/tag2</item>
+        <item>@string/tag3</item>
+        <item>@string/tag4</item>
+        <item>@string/tag5</item>
+        <item>@string/tag6</item>
+        <item>@string/tag7</item>
+        <item>@string/tag8</item>
+        <item>@string/tag9</item>
+    </string-array>
+
+    <string name="filtering">CHOOSE PRODUCTS BY:</string>
+    <string name="brand">BRAND</string>
+    <string name="product_type">PRODUCT TYPE</string>
+    <string name="tags">TAGS</string>
+    <string name="all_products">ALL PRODUCTS</string>
+    <string name="make_up_api">MAKE-UP API</string>
+
+</resources>

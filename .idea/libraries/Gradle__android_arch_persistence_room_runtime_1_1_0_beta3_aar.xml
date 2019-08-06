@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.persistence.room:runtime:1.1.0-beta3@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff0e2c5bd23d8c4173e7135626becf6c/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff0e2c5bd23d8c4173e7135626becf6c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff0e2c5bd23d8c4173e7135626becf6c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/runtime/1.1.0-beta3/23d2939e154771f7066a2e6ae1091680333928ff/runtime-1.1.0-beta3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
